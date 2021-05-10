@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<title>Vogue</title>
+<style>
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+}
+
+#logo {
+  letter-spacing: -3px;
+  font-stretch: ultra-condensed;
+}
+
+.top-nav-bar {
+  overflow: hidden;
+  background-color: #000;
+}
+
+.top-nav-bar a {
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.top-nav-bar a:hover {
+  background-color: #fff;
+  color: #000;
+  border: 4px solid #000;
+  font-style: italic;
+}
+
+.top-nav-bar a:active {
+  color: #959a9c;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+hr { 
+  border: 1px solid black;
+}
+
+.page-container {
+  margin: auto;
+  height: 100%;
+  max-width: 960px;
+  padding: 20px 10px 75px;
+}
+
+.article-summary {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  text-align: justify;
+}
+
+p {
+  color: #959a9c;
+  font-size: 14px;
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+h4 {
+  text-decoration: underline;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row {
+  padding: 10px 0 5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ul { 
+  list-style-type: none;
+  text-align: left;
+}
+
+li { 
+  list-style-type: none;
+  font-size: 14px;
+  display: block;
+  text-align: left;
+}
+
+/* MOBILE RESPONSIVE */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+  .top-nav-bar a {
+    color: #fff;
+    text-align: left;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  img { padding: 10px 0 0; }
+}
+
+</style>
+</head>
+<body>
+<div class="header">
+ <h1 id="logo"><b>VOGUE</b><em>USA</em></h1>
+  <div class="top-nav-bar">
+    <a class="active" href="https://codepen.io/BrianaJHunter/full/WNowmqG">FASHION</a>
+    <a href="#">BEAUTY</a>
+    <a href="#">LIFESTYLE</a>
+    <a href="#">CULTURE</a>
+  </div>
+</div>
+
+<div class="page-container">
+    <hr style="width: 50%;">
+    <h2>SS21 Couture Stuns</h2>
+    <hr style="width: 50%;">
+  <div class="article-summary">
+  <p class="col-sm-12" style="padding-bottom: 10px;">Couture will always be my first love, it's absolutely magical! With an unprecedented worldwide pandemic, designers were forced to get even more creative with concepts for their runway shows. While most collections debuted virtually, in accordance with social distancing recommendations, Fashion Week's Front Row favorites still put on their best outfits to spectate via video conferencing. Enjoy my favorite looks highlighted below&excl;</p>
+    </div>
+
+  <div class="container-fluid col-sm-12">
+    <h4>Armani Prive</h4>
+     <!-- <p>beautiful, cohesive collection</p> -->
+    <div class="row">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/YB2JLNz/armani-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/C0SnJRD/armani12-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/7vPzg7h/armani11-min.jpg">
+    </div>
+    <div class="row">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/wYTzjfx/armani10-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/QCgN2Jd/armani9-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/GvK7V5P/armani8-min.jpg">
+    </div>
+    <div class="row">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/sjL4kx7/armani7-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/CHR0yMP/armani6-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/WDCkByC/armani5-min.jpg">
+    </div>
+    <div class="row">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/R9DJX3V/armani4-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/gZm3pZP/armani3-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/ZSP3KK2/armani2-min.jpg">
+    </div>      
+  </div>
+
+  <div class="container-fluid col-sm-12">
+    <h4>Chanel</h4>
+    <div class="row">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/93z6Ks0/chanel-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/DMVV4L4/chanel11-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/jGkpb0S/chanel10-min.jpg">
+    </div>
+    <div class="row">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/bgcS05D/chanel8-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/TTWrTGW/chanel7-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/DCG8t3y/chanel6-min.jpg">
+    </div> 
+    <div class="row">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/mcsfCMX/chanel5-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/bvPw1wp/chanel4-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/ZS78TjX/chanel2-min.jpg">
+    </div>       
+  </div>  
+  
+  <div class="container-fluid col-sm-12">
+    <h4>Fendi</h4>
+    <div class="row">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/YpYmNzJ/Fendi1-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/w4NtMGF/Fendi2-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/9GSL3Ld/Fendi3-min.jpg">
+    </div>
+    <div class="row">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/qshyGsj/fendi4-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/dm28qTZ/fendi5-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/dfN76Yp/fendi6-min.jpg">
+    </div>
+  </div>
+  
+   <div class="container-fluid col-sm-12">
+    <h4>Valentino</h4>
+    <div class="row">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/19sqgDQ/valentino-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/vBbZy5w/valentino16-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/NWXPSXP/valentino13-min.jpg">
+    </div>
+    <div class="row">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/qDq3ntF/valentino12-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/1mjHThR/valentino10-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/B6R81Rv/valentino9-min.jpg">
+    </div>
+    <div class="row">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/zR7FZpH/valentino8-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/3sLqhJ9/valentino7-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/wRwHhR9/valentino5-min.jpg">
+    </div>
+    <div class="row">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/MZWXLmH/valentino4-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/THpD0MN/valentino3-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/D79H3yZ/valentino2-min.jpg">
+    </div>            
+  </div>  
+  
+    <div class="container-fluid col-sm-12" style="padding-bottom: 30px;">
+    <h4>Viktor & Rolf</h4>
+    <div class="row">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/pfN5gcQ/vr3-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/rwTDkDZ/vr2-min.jpg">
+      <img class="col-xs-12 col-sm-4" src="https://i.ibb.co/x1P8jtx/vr-min.jpg">
+    </div>
+  </div>
+    <!-- pg container closing -->
+</div>
+
+</body>
+</html>
