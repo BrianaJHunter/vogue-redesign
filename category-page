@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<title>Vogue</title>
+<style>
+body {
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+}
+
+#logo {
+  letter-spacing: -3px;
+  font-stretch: ultra-condensed;
+}
+
+a:hover {
+  font-style: italic;
+}
+
+a#article {
+  color: #000;
+}
+
+.top-nav-bar {
+  overflow: hidden;
+  background-color: #000;
+}
+
+.top-nav-bar a {
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.top-nav-bar a:hover {
+  background-color: #fff;
+  color: #000;
+  border: 4px solid #000;
+  font-style: italic;
+}
+
+.top-nav-bar a:active {
+  color: #959a9c;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+.page-container {
+  margin: auto;
+  height: 100%;
+  max-width: 1024px;
+  padding: 20px;
+}
+
+hr { 
+  border: 1px solid black;
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+h4 {
+  font-size: 12px;
+}
+
+div.col-sm-6 {
+  padding: 0 5px;
+}
+
+.article {
+  height: auto;
+  max-width: 480px;
+  padding: 10px 0 18px;
+  margin: 10px;
+  border: 1px solid white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.article:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+.category {
+  font-size: 13px;
+  color: #959a9c;
+  text-align: center;
+  padding: 5px;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+/* MOBILE RESPONSIVE */
+@media screen and (max-width: 600px) {
+   .top-nav-bar a {
+    color: #fff;
+    text-align: left;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .page-container {
+    max-width: 920px;
+    height: 100%;
+  }
+  
+  div.col-sm-6 {
+    padding: 10px 0;
+  }
+ }
+@media screen and (max-width: 920px) {  
+  img {
+    height: 300px;
+    width: auto;
+    padding: 10px 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+ <h1 id="logo"><b>VOGUE</b><em>USA</em></h1>
+  <div class="top-nav-bar">
+    <a class="active" href="#">FASHION</a>
+    <a href="#">BEAUTY</a>
+    <a href="#">LIFESTYLE</a>
+    <a href="#">CULTURE</a>
+  </div>
+</div>
+
+<div class="page-container">
+    <hr style="width: 50%;">
+    <h2>Fashion</h2>
+    <hr style="width: 50%;">  
+  
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="article">    
+      <p class="category">RUNWAY</p>        
+      <a id="article" href="https://codepen.io/BrianaJHunter/full/gOLYpQW"><h3>SS21 Highlights: Stunning Couture</h3>
+      <img src="https://i.ibb.co/2ZbzBnS/Fendi3.jpg">
+      <h4>Fendi by Kim Jones</h4></a>
+      </div>        
+        
+      <div class="article">
+      <p class="category">RUNWAY</p>   
+      <h3>SS21 Highlights: Memorable Menswear</h3>
+      <img src="https://i.ibb.co/Db1jmKc/wales-bonner.jpg">
+      <h4>Wales Bonner by Wales Bonner</h4>
+      </div>        
+    </div>
+    <div class="col-sm-6">
+      <div class="article">
+      <p class="category">FASHION</p>        
+      <h3>Naomi Roams Old Friend's Gucci Atelier</h3>
+      <img src="https://i.ibb.co/5FGCPvG/dd-nc.jpg">
+      <h4>Gucci by Dapper Dan</h4>        
+      </div>
+      <div class="article">      
+      <p class="category">RUNWAY</p>        
+      <h3>NYFW: Black Lives Matter</h3>
+      <img src="https://i.ibb.co/jDhdQPd/pm.jpg">
+      <h4>Pyer Moss by Pyer Moss</h4>
+      </div>  
+      <div class="article">      
+      <p class="category">FASHION</p>        
+      <h3>A PPE Nightmare Turns Fashionable</h3>
+      <img src="https://i.ibb.co/F7qysM7/ppe.jpg">
+      <h4>Echo-Hawk by Abigail Echo-Hawk</h4>
+      </div>  
+  </div>
+  <!-- Page Container closing div -->
+</div>
+
+</body>
+</html>
