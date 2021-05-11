@@ -127,7 +127,7 @@ li {
 <div class="header">
  <h1 id="logo"><b>VOGUE</b><em>USA</em></h1>
   <div class="top-nav-bar">
-    <a class="active" href="https://codepen.io/BrianaJHunter/full/WNowmqG">FASHION</a>
+    <a class="active" href="https://github.com/BrianaJHunter/vogue-redesign/blob/main/category-page">FASHION</a>
     <a href="#">BEAUTY</a>
     <a href="#">LIFESTYLE</a>
     <a href="#">CULTURE</a>
@@ -136,7 +136,7 @@ li {
 
 <div class="page-container">
     <hr style="width: 50%;">
-    <h2>SS21 Couture Stuns</h2>
+    <h2 href="https://github.com/BrianaJHunter/vogue-redesign/blob/main/article-page">SS21 Couture Stuns</h2>
     <hr style="width: 50%;">
   <div class="article-summary">
   <p class="col-sm-12" style="padding-bottom: 10px;">Couture will always be my first love, it's absolutely magical! With an unprecedented worldwide pandemic, designers were forced to get even more creative with concepts for their runway shows. While most collections debuted virtually, in accordance with social distancing recommendations, Fashion Week's Front Row favorites still put on their best outfits to spectate via video conferencing. Enjoy my favorite looks highlighted below&excl;</p>
